@@ -32,7 +32,6 @@
   .asdf{
     justify-content: center;
     text-align: center;
-    padding: 40%;
     height: 100vh;
     background-color: rgba(0, 0, 0, 0.222);
     background-color: #e5e5f7;
@@ -41,10 +40,9 @@
     background-size: cover;
     opacity: 0.4;
     background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #e5e5f7 40px ), repeating-linear-gradient( #b0b0b055, #b0b0b0 );
-  
-    padding-top: 306.391;
-    padding-top: 2px;
-    padding-bottom: 0px;
+
+
+    padding: 0 40% 0 40%;
   
   }
   
@@ -55,10 +53,10 @@
 
   .inp{
     display: flex;
-    flex-direction: column;
     background-color: #000000;
     color: white;
-    height:30px;
+    /* height:30px; */
+    /* width: 350px; */
     width: 200px;
     border-radius: 8px;
     font-size: x-large;
